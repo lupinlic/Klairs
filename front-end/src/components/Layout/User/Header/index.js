@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from "react";
 import Login from '../../../../pages/User/Login';
-
+import ChatBot from '../../../../pages/User/ChatBot';
 
 function Header() {
 
@@ -48,6 +48,7 @@ function Header() {
 
     return (
         <>
+            <ChatBot />
             <Login isVisible={showLogin} onClose={handleClose} />
             <div className={`container-fluid p-0 header ${isHidden ? "hidden" : ""} ${isFixed ? "fixed" : ""}`}>
                 <div className='container h-100'>

@@ -28,6 +28,7 @@ function Sidebar() {
                 </li>
                 <li className='slide' style={{ padding: '8px 20px' }}><Link to='/Admin/Account'> <i class="fas fa-user me-2"></i> Tài khoản</Link> </li>
                 <li className='slide' style={{ padding: '8px 20px' }}><Link to='/Admin/Category'><i class="fas fa-user me-2"></i>Danh mục</Link> </li>
+                <li className='slide' style={{ padding: '8px 20px' }}><Link to='/Admin/Chat'><i class="fas fa-user me-2"></i>Quản lý tin nhắn</Link> </li>
 
 
             </ul>
